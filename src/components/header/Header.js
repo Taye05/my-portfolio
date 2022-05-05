@@ -19,7 +19,7 @@ const pathVariants ={
         opacity: 1,
         pathLength: 1,
         transition: {
-            duration: 2,
+            duration: 5,
             ease: "easeInOut"
         }
     }
@@ -33,7 +33,7 @@ const Header = () => {
             initial="hidden"
             animate="visible"
              alt="logo"
-             className="w-14 ml-10" />
+             className="w-14 md:ml-5 lg:ml-10" />
 
              
            <motion.h1 variants={pathVariants} 

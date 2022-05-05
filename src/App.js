@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/header/Header';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
+import Projects from './components/Projects/projects';
+import Technology from './components/Technology/Technology';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
      <Header />
      <Hero />
      <About />
+     <Projects />
+     <Technology />
     </div>
   );
 }
