@@ -27,7 +27,7 @@ const pathVariants ={
 
 const Header = () => {
     return(
-        <div className="m- flex bg-black text-white">
+        <div className="w-screen flex bg-black text-white">
             <motion.img src={Image} 
             variants={variants}
             initial="hidden"

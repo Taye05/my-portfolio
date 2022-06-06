@@ -9,11 +9,11 @@ const Technology = () => {
     return (
         <div>
             <div>
-            <h1 className="flex justify-center">TECHNOLOGIES</h1>
+            <h1 className="flex justify-center mt-10">TECHNOLOGIES</h1>
             </div>
            
            
-           <div className="flex justify-center">
+           <div className="sm:block m-20 lg:flex justify-center">
            <div className="m-10 animate-bounce">
                <h1>React.js</h1>
                <img src={Reactjs} alt="react-logo" className="h-10 w-20"/>

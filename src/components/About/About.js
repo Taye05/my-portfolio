@@ -9,7 +9,7 @@ const About = () => {
            </div>
            <div className="marquee m-10">
                {/* <h1 className="content">well, you can just sayyyyyyyyy</h1> */}
-               <h1 className="text-xs flex justify-center">I am an enthusiastic person. I get really curious about things. I love to collaborate and network. <br />
+               <h1 className="text-sm flex justify-center">I am an enthusiastic person. I get really curious about things. I love to collaborate and network. <br />
                     with positive people. I have worked with different technologies ranging from <br />
                     reactjs, nextjs, tailwindcss, styled components, git. <br />
                     When I am not coding, I love spending time with people <br />
